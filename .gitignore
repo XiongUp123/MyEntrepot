@@ -1,0 +1,5 @@
+# 忽略logo.js  22.html文件
+logo.js
+22.html
+# 忽略text目录下的所有文件
+text/
