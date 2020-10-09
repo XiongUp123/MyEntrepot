@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .box {
+            width: 750px;
+            margin: 0 auto;
+        }
+
+        .box ul li {
+            width: 93.75px;
+            height: 30px;
+            float: left;
+            background-color: red;
+        }
+
+        @media screen and (max-width: 749px) {
+            .box {
+                width: 100%;
+            }
+
+            .box ul li {
+                width: 33.33%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <ul>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+            <li>导航栏</li>
+
+        </ul>
+    </div>
+</body>
+
+</html>
